@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="ThirdParty">
+      <UniqueIdentifier>{6676491a-4ee1-4037-ae8f-169842ba54b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\TinyXML2">
+      <UniqueIdentifier>{a8389abc-50d6-444c-83e5-90e382c38964}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\SFML">
+      <UniqueIdentifier>{eeddb2c1-df34-4629-bf04-897939e91821}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Src\FileSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Src\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Src\ThirdParty\TinyXML\tinyxml2.cpp">
+      <Filter>ThirdParty\TinyXML2</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Src\LoadModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\Src\FileSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\EngineConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\KeyGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\Engine\Src\Util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\TinyXML\tinyxml2.h">
+      <Filter>ThirdParty\TinyXML2</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\LoadModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Audio\AudioResource.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Audio\Listener.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Audio\Music.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Audio\Sound.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Audio\SoundBuffer.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Audio\SoundBufferRecorder.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Audio\SoundRecorder.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Audio\SoundStream.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Audio.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Config.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Graphics\Color.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Graphics\Drawable.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Graphics\Font.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Graphics\Glyph.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Graphics\Image.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Graphics\Matrix3.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Graphics\PostFX.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Graphics\Rect.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Graphics\RenderTarget.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Graphics\RenderWindow.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Graphics\Shape.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Graphics\Sprite.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Graphics\String.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Graphics\View.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Graphics.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Network\Ftp.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Network\Http.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Network\IPAddress.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Network\Packet.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Network\Selector.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Network\SelectorBase.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Network\SocketHelper.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Network\Sockets.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Network\SocketTCP.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Network\SocketUDP.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Network\Unix\SocketHelper.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Network\Win32\SocketHelper.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Network.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\System\Clock.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\System\Lock.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\System\Mutex.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\System\NonCopyable.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\System\Randomizer.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\System\Resource.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\System\Sleep.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\System\Thread.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\System\Unicode.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\System\Unix\Mutex.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\System\Unix\Thread.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\System\Vector2.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\System\Vector3.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\System\Win32\Mutex.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\System\Win32\Thread.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\System.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Window\Context.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Window\Event.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Window\Input.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Window\OpenGL.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Window\VideoMode.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Window\Window.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Window\WindowHandle.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Window\WindowListener.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Window\WindowSettings.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Window\WindowStyle.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Src\ThirdParty\SFML\Window.hpp">
+      <Filter>ThirdParty\SFML</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Engine\Src\ThirdParty\SFML\Graphics\Matrix3.inl">
+      <Filter>ThirdParty\SFML</Filter>
+    </None>
+    <None Include="Engine\Src\ThirdParty\SFML\Graphics\Rect.inl">
+      <Filter>ThirdParty\SFML</Filter>
+    </None>
+    <None Include="Engine\Src\ThirdParty\SFML\Network\Selector.inl">
+      <Filter>ThirdParty\SFML</Filter>
+    </None>
+    <None Include="Engine\Src\ThirdParty\SFML\System\Resource.inl">
+      <Filter>ThirdParty\SFML</Filter>
+    </None>
+    <None Include="Engine\Src\ThirdParty\SFML\System\ResourcePtr.inl">
+      <Filter>ThirdParty\SFML</Filter>
+    </None>
+    <None Include="Engine\Src\ThirdParty\SFML\System\Unicode.inl">
+      <Filter>ThirdParty\SFML</Filter>
+    </None>
+    <None Include="Engine\Src\ThirdParty\SFML\System\Vector2.inl">
+      <Filter>ThirdParty\SFML</Filter>
+    </None>
+    <None Include="Engine\Src\ThirdParty\SFML\System\Vector3.inl">
+      <Filter>ThirdParty\SFML</Filter>
+    </None>
+  </ItemGroup>
+</Project>

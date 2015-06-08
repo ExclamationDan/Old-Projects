@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CGame" Collapsed="true">
+    <Position X="14.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEBgAAAAAAAAAAAACAAAAAAAAIAAAAABBAAAA=</HashCode>
+      <FileName>Source\Engine\Game.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EngineConfig" Collapsed="true">
+    <Position X="14.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAMAAAAAAAAAAAAAAAAAAAEAAQAAA=</HashCode>
+      <FileName>Source\Engine\EngineConfig.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameWindow" Collapsed="true">
+    <Position X="16.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAoAAAAAEAAAAAAAAAAAAQAAAQAAAAAQ=</HashCode>
+      <FileName>Source\Engine\GameWindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLoadModel" Collapsed="true">
+    <Position X="9" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>source\engine\CLoadModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLoadImage" Collapsed="true">
+    <Position X="11" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAIAA=</HashCode>
+      <FileName>source\engine\CLoadImage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CManagerRender" Collapsed="true">
+    <Position X="10" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>source\engine\CManagerRender.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlakPath" Collapsed="true">
+    <Position X="16.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAACAAAgAAAIEAAEAAADAACCAAAQACAgAAQAAAACA=</HashCode>
+      <FileName>Source\Engine\FlakPath.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CKeyLite" Collapsed="true">
+    <Position X="14.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAABAAABQAABAAAAABAAAEACBAAAAAAAAEAIBA=</HashCode>
+      <FileName>Source\Engine\KeyGroup.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

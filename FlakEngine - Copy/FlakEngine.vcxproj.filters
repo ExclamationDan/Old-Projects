@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="FlakEngine">
+      <UniqueIdentifier>{5b0ba148-0f2a-425f-addd-2fbcb5482815}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlakEngine\FrameWork">
+      <UniqueIdentifier>{69e05004-0906-4c12-aeee-a13bef2ddbcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlakEngine\FrameWork\Managers">
+      <UniqueIdentifier>{8d1733dd-bb3e-4dd6-9f08-ab22ac4b47ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlakEngine\FrameWork\Prototype">
+      <UniqueIdentifier>{135f6481-1f4f-4127-a5bd-1c8f4063d0e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlakEngine\FrameWork\ThirdParty">
+      <UniqueIdentifier>{bbcc841d-72e3-47a1-91e5-d7bb30a44cc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlakEngine\FrameWork\ThirdParty\TinyXML">
+      <UniqueIdentifier>{9f0851ae-57a4-4276-afbc-448b3f8b61e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlakEngine\FrameWork\ThirdParty\SOIL">
+      <UniqueIdentifier>{ec056e68-21b5-45e9-a643-aa9cdaeb9862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlakEngine\FrameWork\Utility">
+      <UniqueIdentifier>{05cb59c0-4602-4f3f-b32c-3ace45d83456}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Engine\FlakPath.hpp">
+      <Filter>FlakEngine\FrameWork\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\FlakFuncs.hpp">
+      <Filter>FlakEngine\FrameWork\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\ThirdParty\SOIL\image_DXT.h">
+      <Filter>FlakEngine\FrameWork\ThirdParty\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\ThirdParty\SOIL\image_helper.h">
+      <Filter>FlakEngine\FrameWork\ThirdParty\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\ThirdParty\SOIL\SOIL.h">
+      <Filter>FlakEngine\FrameWork\ThirdParty\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\ThirdParty\SOIL\stb_image_aug.h">
+      <Filter>FlakEngine\FrameWork\ThirdParty\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\ThirdParty\SOIL\stbi_DDS_aug.h">
+      <Filter>FlakEngine\FrameWork\ThirdParty\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\ThirdParty\SOIL\stbi_DDS_aug_c.h">
+      <Filter>FlakEngine\FrameWork\ThirdParty\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\GameWindow.h">
+      <Filter>FlakEngine\FrameWork\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\Game.hpp">
+      <Filter>FlakEngine\FrameWork\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\ThirdParty\TinyXML\tinyxml2.h">
+      <Filter>FlakEngine\FrameWork\ThirdParty\TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\EngineConfig.h">
+      <Filter>FlakEngine\FrameWork\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine\KeyGroup.h">
+      <Filter>FlakEngine\FrameWork\Utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Engine\Main.cpp">
+      <Filter>FlakEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\ThirdParty\SOIL\image_DXT.c">
+      <Filter>FlakEngine\FrameWork\ThirdParty\SOIL</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\ThirdParty\SOIL\image_helper.c">
+      <Filter>FlakEngine\FrameWork\ThirdParty\SOIL</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\ThirdParty\SOIL\SOIL.c">
+      <Filter>FlakEngine\FrameWork\ThirdParty\SOIL</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\ThirdParty\SOIL\stb_image_aug.c">
+      <Filter>FlakEngine\FrameWork\ThirdParty\SOIL</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine\ThirdParty\TinyXML\tinyxml2.cpp">
+      <Filter>FlakEngine\FrameWork\ThirdParty\TinyXML</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
